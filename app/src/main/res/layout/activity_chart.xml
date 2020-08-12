@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:paddingVertical="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+
+            android:id="@+id/btnView"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Views"
+            android:background="@drawable/button_curve"
+
+            />
+        <Button
+            android:id="@+id/btnLike"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Likes"
+            android:background="@drawable/button_curve"
+            android:layout_weight="1"
+
+
+            />
+        <Button
+            android:id="@+id/btnPreferred"
+            android:textSize="11sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prefered"
+            android:background="@drawable/button_curve"
+            android:layout_weight="1"
+
+
+            />
+        <Button
+            android:id="@+id/btnAvailed"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Availed"
+            android:background="@drawable/button_curve"
+            android:layout_weight="1"
+
+            />
+        <Button
+            android:id="@+id/btnDismiss"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dismissed"
+            android:background="@drawable/button_curve"
+            android:layout_weight="1"
+
+
+            />
+
+
+    </LinearLayout>
+
+<LinearLayout
+    android:paddingVertical="5dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <Button
+
+        android:id="@+id/btnGender"
+        android:padding="2.5dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:background="@drawable/button_curve"
+
+        />
+    <Button
+
+        android:id="@+id/btnAge"
+        android:padding="2.5dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:background="@drawable/button_curve"
+
+        />
+    <Button
+
+        android:id="@+id/btnStatus"
+        android:padding="2.5dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:background="@drawable/button_curve"
+
+        />
+</LinearLayout
+    >
+<com.github.mikephil.charting.charts.PieChart
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:id="@+id/pieChart"
+    />
+<!--.-->
+
+</LinearLayout>
