@@ -68,13 +68,13 @@ class DashboardActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
         if (drawer_layout.isDrawerOpen(GravityCompat.START)) {
             drawer_layout.closeDrawer(GravityCompat.START)
         } else {
-
-          
-           var startMain = Intent(Intent.ACTION_MAIN)
-            startMain.addCategory(Intent.CATEGORY_HOME)
-            startMain.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-            startActivity(startMain)
-            super.onBackPressed()
+//
+//
+//           var startMain = Intent(Intent.ACTION_MAIN)
+//            startMain.addCategory(Intent.CATEGORY_HOME)
+//            startMain.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+//            startActivity(startMain)
+//            super.onBackPressed()
         }
     }
 
@@ -162,7 +162,7 @@ class DashboardActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
 //
 //            }
             R.id.nav_logout ->{
-            finish()
+
                 val intent = Intent (this, MainActivity::class.java)
                 startActivity(intent)
             }
